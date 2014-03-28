@@ -1,10 +1,10 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="login_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="logindefault.aspx.vb" Inherits="login_Default" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Login1</title>
+    <title> Login </title>
 </head>
 <body>
     <form id="form1" runat="server">
