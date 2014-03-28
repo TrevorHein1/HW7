@@ -20,6 +20,14 @@
 
     </div>
 
+        
+
+        <div id="menu">
+        
+        Menu text
+
+        </div>
+
         <div id="main">
         
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
