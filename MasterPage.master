@@ -39,7 +39,9 @@
 
         <div id="menu">
 
-            <p> Upcoming Games: April/03/14 Wild @ Blackhawks; April/04/14 Blackhawks @ Bluejackets; April/06/14 Blues @ Blackhawks; April/09/14 Canadiens @ Blackhawks; </p>
+            <p> Today&#39;s Date is <asp:Label ID="DateLabel" runat="server" Font-Bold="True" Font-Underline="True"></asp:Label> </p>
+
+            <p> Upcoming Games: April/03/14 Wild @ Blackhawks; April/04/14 Blackhawks @ Bluejackets; April/06/14 Blues @ Blackhawks; April/09/14 Canadiens @ Blackhawks </p>
         
         </div>
 
