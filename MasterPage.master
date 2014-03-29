@@ -18,14 +18,22 @@
     
         <div id="header">
 
-        <div id="logo2"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="100px" width="130" /></div>
-        <div id="logo2x"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="100px" width="130" /></div>
+        <div id="logo2"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="170px" width="200" /></div>
+        <div id="logo2x"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="170px" width="200" /></div>
 
             <h1> Chicago Blackhawks    </h1>
 
         <h4> 2013 - 2014 SEASON </h4>
 
-    </div>
+            <div id="Login">
+
+            <p> 
+                <asp:Button ID="LogInButton" runat="server" Text="User Log In" />
+            </p>
+
+            </div>
+
+        </div>
 
         
 

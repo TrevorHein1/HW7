@@ -8,7 +8,11 @@
 
     <h3> Hawks put Patrick Kane on IR </h3>
 
+    <br />
+
     <div id="Kane"><img src="./Images/Kane.jpg" alt="Kane" title="Kane" height="250px" width="275" /></div>
+
+    <br />
 
     <div id="Kaneinjury">
 
