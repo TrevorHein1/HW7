@@ -1,35 +1,34 @@
 ﻿/* DIV formatting*/
 
 #container {
-    background: navy;
+    background: black;
     height: auto;
-    width: auto;
+    width: 1240px;
     margin: auto;
 }
 
 #header {
-    background: navy;
+    background: black;
     color: white;
     border: 5px solid red;
     padding: 5px;
 }
 
-#wrapper { width: 850px;
-}
+
 
 #main {
     background: white;
     padding: 10px;
-    width: 650px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     float: right;
     border-right: 5px solid red;
     border-left: 5px solid red;
 }
 
 #left_sidebar {
-    background: navy;
-    height: 420px;
+    background: black;
+    height: 620px;
     width: 150px; 
     float: left;
    border-left:5px solid red; 
@@ -39,14 +38,54 @@
     background: red;
     color: white;
     clear:both;
-    padding: 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 16pt;
     
 }
 
 #menu {
     background: red;
     color: white;
-    padding: 5px 10px;
+    padding-left: 10px;
     border: 1px solid red;
+    text-align: center;
 }
 
+#Menu1 { padding-left: 5px;
+         padding-top: 5px;
+}
+
+h1 { text-align: center;
+}
+
+h2 {
+}
+
+h3 { text-align: left;
+     font-size: 22pt;
+     padding-top: 10px;
+     padding-left: 10px;
+}
+
+h4 { text-align: center;
+     color: yellow;
+}
+
+
+#Kaneinjury { text-align: left;
+              padding-left: 10px;
+} 
+
+#logo2 { float: left;
+
+
+}
+
+#logo2x { float: right;
+}
+
+#Kane { text-align: center;
+       
+}

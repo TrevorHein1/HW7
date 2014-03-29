@@ -15,9 +15,15 @@
     <form id="form1" runat="server">
     <div id="wrapper">
     <div id="container">
-    <div id="header">
+    
+        <div id="header">
 
-        <h1> Header Text </h1>
+        <div id="logo2"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="100px" width="130" /></div>
+        <div id="logo2x"><img src="./Images/Blackhawkslogo2.jpg" alt="Logo2" title="Logo1" height="100px" width="130" /></div>
+
+            <h1> Chicago Blackhawks    </h1>
+
+        <h4> 2013 - 2014 SEASON </h4>
 
     </div>
 
@@ -25,7 +31,7 @@
 
         <div id="menu">
 
-            Menu Bar
+            <p> Upcoming Games: April/03/14 Wild @ Blackhawks; April/04/14 Blackhawks @ Bluejackets; April/06/14 Blues @ Blackhawks; April/09/14 Canadiens @ Blackhawks; </p>
         
         </div>
 
@@ -55,7 +61,7 @@
 
     <div id="footer">
 
-        Footer Text
+        <p> CHICAGO BLACKHAWKS HOCKEY! </p>
 
     </div>
     </div>
