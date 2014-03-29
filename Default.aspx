@@ -8,7 +8,7 @@
 
     <h3> Main Body Text</h3>
 
-    Body section
+   <p> This is the content for default.aspx</p>
 
 </asp:Content>
 

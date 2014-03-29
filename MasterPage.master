@@ -13,6 +13,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+    <div id="wrapper">
     <div id="container">
     <div id="header">
 
@@ -23,10 +24,25 @@
         
 
         <div id="menu">
+
+            Menu Bar
         
         </div>
 
+
+
+        <div id="main">
+
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+        </div>
+
         <div id="left_sidebar"> 
+
 
             <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical">
 
@@ -36,16 +52,6 @@
 
         </div>
 
-        <div id="main">
-        
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-
-
-        </div>
-
-    
 
     <div id="footer">
 
@@ -53,7 +59,7 @@
 
     </div>
     </div>
-
+    </div>
 
     </form>
 </body>
