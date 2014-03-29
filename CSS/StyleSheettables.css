@@ -1,0 +1,39 @@
+﻿body {
+}
+
+/* GridView Roster.aspx*/
+
+.grid-view {    background-color: black;
+                    width: auto;    
+                    margin: 5px 0 10px 0;    
+                    border: solid 2px red;    
+                    border-collapse: collapse;    
+                    text-align: center;    
+                    color: red;
+}
+
+.grid-view .row { background-color: white;    
+}
+
+.grid-view .alternate { background-color: red;    
+}    
+
+.grid-view td {padding: 10px;        
+               border: solid 2px red;        
+               color: white;    
+}    
+
+.grid-view th {padding: 10px;        
+               color: red;        
+               border-left: solid 2px red;
+}
+
+#GridView1 {margin-left: auto;
+            margin-right: auto;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+#DetailsView1 { margin-left: auto;   
+                margin-right: auto;
+}       
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+/*End grid-view style*/
