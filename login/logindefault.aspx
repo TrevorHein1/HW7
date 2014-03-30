@@ -1,21 +1,15 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="logindefault.aspx.vb" Inherits="login_Default" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="logindefault.aspx.vb" Inherits="login_logindefault" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    
-    <title> Login </title>
-
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
+    <div id="login">
     
         <asp:Login ID="Login1" runat="server" Height="179px" Width="293px">
         </asp:Login>
-    
+
     </div>
-    </form>
-</body>
-</html>
+
+</asp:Content>
+
