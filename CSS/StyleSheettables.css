@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-/* GridView Roster.aspx*/
+   /* GridView Roster.aspx*/
 
 .grid-view {    background-color: black;
                     width: auto;    
@@ -28,17 +28,10 @@
                border-left: solid 2px red;
 }
 
-#GridView1 {margin-left: auto;
-            margin-right: auto;
-}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 #DetailsView1 { margin-left: auto;   
                 margin-right: auto;
 }
-
-#details { margin-right: auto;
-           margin-left: auto;
-           text-align: center;
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 /*End grid-view style*/
+
