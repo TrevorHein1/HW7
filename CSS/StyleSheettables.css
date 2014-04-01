@@ -34,6 +34,11 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 #DetailsView1 { margin-left: auto;   
                 margin-right: auto;
-}       
+}
+
+#details { margin-right: auto;
+           margin-left: auto;
+           text-align: center;
+}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 /*End grid-view style*/
