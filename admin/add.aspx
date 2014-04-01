@@ -4,11 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-   <link rel="stylesheet" type="text/css" href="./CSS/StyleSheettables.css"/>
-
-    <br />
-
-    <div id="details">
+   <link rel="stylesheet" type="text/css" href="./CSS/StyleSheettables.css" />
 
     <h2> Add New Player </h2>
 
@@ -42,7 +38,7 @@
         </asp:SqlDataSource>
 
     <p> 
-        <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="playerID" DataSourceID="AddDataSource1" Height="133px" Width="362px">
+        <asp:DetailsView ID="AddDetailsView" runat="server" CssClass="grid-view" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="playerID" DataSourceID="AddDataSource1" Height="133px" Width="362px">
             <Fields>
                 <asp:BoundField DataField="number" HeaderText="Number" SortExpression="number" />
                 <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
@@ -57,9 +53,7 @@
         </asp:DetailsView>
     </p>
     
-     
-
-    </div>
+    
 
 </asp:Content>
 

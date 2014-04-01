@@ -12,7 +12,11 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    This is the Admin Page
+    <h2> Administrative Functions </h2>
+
+    <p> Administrators are able to access the Add Player page and Edit / Delete Page by logging in with their Admin username and password. 
+        Please remeber to log out after making your Add/Edit/Delete record changes. Thank you. 
+    </p>
 
 </asp:Content>
 
