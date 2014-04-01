@@ -28,7 +28,7 @@
             <div id="Login">
 
             <p> 
-                <asp:Button ID="LogInButton" runat="server" Text="User Log In" />
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
             </p>
 
             </div>
@@ -73,7 +73,7 @@
 
     <div id="footer">
 
-        <p> CHICAGO BLACKHAWKS HOCKEY! </p>
+        <p> CHICAGO BLACKHAWKS HOCKEY!</p>
 
     </div>
     </div>

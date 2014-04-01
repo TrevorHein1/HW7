@@ -7,15 +7,17 @@
 
     <siteMapNode url="~/viewroster.aspx" title="View Roster"  description="" />
 
+    <siteMapNode url="~/search.aspx" title="Search Roster"  description="" />
+
     <siteMapNode url="~/contact.aspx" title="Contact Us"  description="" />
 
     <siteMapNode url="~/aboutus.aspx" title="About Us"  description="" />
 
     <siteMapNode url="~/admin/admindefault.aspx" title="Admin"  description=""/>
 
-    <siteMapNode url="~/admin/add.aspx" title="Add Item"  description="" />
+    <siteMapNode url="~/admin/add.aspx" title="Add Player"  description="" />
 
-    <siteMapNode url="~/admin/edit.aspx" title="Edit / Delete Item"  description="" />
+    <siteMapNode url="~/admin/edit.aspx" title="Edit / Delete"  description="" />
 
       </siteMapNode>
     
